@@ -1,6 +1,6 @@
-"Quy chuẩn Conventional Commits là gì? Tại sao nên dùng tiền tố refactor: thay vì chỉ ghi nội dung sửa?"	Để viết commit message chuyên nghiệp, dễ theo dõi cho Tech Lead.
-2	"Sự khác biệt giữa <section> và <article> là gì? Trong blog, thẻ nào nên bọc thẻ nào?"	Để đảm bảo cấu trúc Semantic đạt điểm SEO tối đa.
-3	"Vùng đệm Staging Area trong Git có tác dụng gì khi tôi muốn chia nhỏ các thay đổi?"	Hiểu rõ cơ chế git add trước khi commit.
+Câu hỏi 1: Quy chuẩn Conventional Commits là gì? Tại sao nên dùng tiền tố refactor: thay vì chỉ ghi nội dung sửa?. Lý do để viết commit message chuyên nghiệp, dễ theo dõi cho Tech Lead.
+Câu hỏi 2: Sự khác biệt giữa <section> và <article> là gì? Trong blog, thẻ nào nên bọc thẻ nào?. Lý do để đảm bảo cấu trúc Semantic đạt điểm SEO tối đa.
+Câu hỏi :3 Vùng đệm Staging Area trong Git có tác dụng gì khi tôi muốn chia nhỏ các thay đổi?. Lý do hiểu rõ cơ chế git add trước khi commit.
 
 Tiêu chí để quyết định khi nào nên gõ lệnh git commit?
 
