@@ -1,0 +1,13 @@
+Câu hỏi tại sao các trang web lớn lại bọc thẻ <a> bên trong thẻ <li>? Làm thế có lợi ích gì cho SEO không?	Lý do hiểu về ngữ nghĩa HTML để bảo vệ giải pháp trước Tech Lead.
+Câu hỏi tôi định đặt tên nhánh là 'nhanh-cua-toi', AI hãy đánh giá xem tên này đã chuẩn quy ước chưa?. Lý do AI góp ý đổi thành feature/nav-menu để chuyên nghiệp hơn.
+Câu hỏi tôi đang ở nhánh main, làm sao để tạo nhánh mới và di chuyển sang đó bằng 1 dòng lệnh?. Lý do viết thêm lệnh git checkout -b [tên_nhánh].
+Câu hỏi terminal của tôi hiện 'Merge conflict'. Giải thích các ký hiệu <<<<<<< HEAD và =======?. Lý do học cách đọc hiểu xung đột để tự tay xử lý file (không dùng AI sửa hộ).
+
+Câu hỏi mã nguồn 
+Câu hỏi Tại sao dùng <ul> thay vì <ol>?
+
+Trả lời: Vì các mục trong menu trang web (Trang chủ, Liên hệ...) không có thứ tự ưu tiên về mặt logic toán học hay quy trình. Dùng <ul> (Unordered List) là phản ánh đúng nhất bản chất của dữ liệu điều hướng.
+
+Câu hỏi chỉnh sửa file ở nhánh feature mà quên commit rồi checkout sang main?
+
+Trả lời: Git sẽ cảnh báo hoặc ngăn chặn (nếu file bị xung đột). Tuy nhiên, nếu file đó không xung đột, những thay đổi chưa commit sẽ "đi theo" sang nhánh main. Điều này rất nguy hiểm vì có thể làm bẩn nhánh main một cách vô ý. Do đó, luôn cần git status và commit trước khi đổi nhánh.
